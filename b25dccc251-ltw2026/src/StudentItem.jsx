@@ -1,7 +1,6 @@
 import React from 'react';
 
 const StudentItem = ({ student, onDelete }) => {
-  // Sử dụng Destructuring để bóc tách props
   const { id, name, score, class: className } = student;
 
   return (
